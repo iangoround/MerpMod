@@ -1,7 +1,7 @@
-#define MOD_ECUID 26614D3435
-#define MOD_DATE 20.11.26.11.52
-#include "Switch.h"
-#define MOD_CONFIG Switch
+#define MOD_ECUID 9D9B2CA631
+#define MOD_DATE 23.11.26.21.02
+#include "Flash.h"
+#define MOD_CONFIG Flash
 #define MOD_BUILD Testing
 #define MOD_RELEASE 0
 #define ECU_CALIBRATION_ID AE5L500L
@@ -90,7 +90,6 @@
 /////////////////////
 
 #define hPullWgdc (0x00013FD4)
-#define hWgdc (0x0004A574)
 #define sWgdc (0x0001383C)
 #define hTableWgdcInitial (0x00013FD0)
 #define tWgdcInitial (0x000AA994)
@@ -106,7 +105,6 @@
 #define pPolf4Byte (0xFFFF79A0)
 #define hPull3DPolf (0x0003629C)
 #define tPolf (0x000D05C0)
-#define hPolf (0x0004ACDC)
 #define sPolf (0x00036048)
 #define pPolfEnrich (0xFFFF79A0)
 #define tPolfKcaAlt (0x000AD634)
@@ -163,7 +161,7 @@
 #define pFbkc4 ((float*)0xFFFF77FC)
 #define pIam1 ((unsigned char*)0xFFFF68A1)
 #define pIam4 ((float*)0xFFFF2B3C)
-#define pEngineSpeed ((float*)0xFFFF6648)
+#define pEngineSpeed ((float*)0xFFFF6620)
 #define pVehicleSpeed ((float*)0xFFFF6624)
 #define pCoolantTemp ((float*)0xFFFF4144)
 #define pAtmoPress ((float*)0xFFFF68C4)
